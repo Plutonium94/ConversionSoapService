@@ -5,15 +5,15 @@ The service along with a client are created using Java and **JAX-WS**.
 
 
 ## Launching the service
-cd conversion
-mvn package 
-mvn exec:java
+	cd conversion
+	mvn package 
+	mvn exec:java
 
 ## Launching the client
-cd ConversionClient
-wsimport -s target/generated-sources -d target/classes http://localhost:9900/ws/conv?wsdl
-mvn package
-mvn exec:java
+	cd ConversionClient
+	wsimport -s target/generated-sources -d target/classes http://localhost:9900/ws/conv?wsdl
+	mvn package
+	mvn exec:java
 
 
 #### Sample Results
