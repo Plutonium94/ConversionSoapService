@@ -17,6 +17,6 @@ The service along with a client are created using Java and **JAX-WS**.
 
 
 #### Sample Results
-6 feet = 1.8288 metres
-80 kph = 22.22 mps
-2/5 = 40.0 %
+6 feet = 1.8288 metres  
+80 kph = 22.22 mps  
+2/5 = 40.0 %  
